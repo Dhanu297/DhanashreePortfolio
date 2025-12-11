@@ -1,0 +1,105 @@
+.NavigationHeader
+{
+    background-image: url(9129518.jpg);
+}
+
+.NavigationHeader h1{
+color: #08282e;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+align-items: center;
+
+}
+.gradient-text {
+    /* Set the font properties */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+vertical-align: top;
+
+    color: #011b20;
+    
+}
+.img-Offering{
+    height: 240px;
+    padding-top: 10px;
+
+}
+
+#main1
+{
+    background-image: url(17973908.jpg)
+    
+}
+.brand-image
+{
+     border-radius:50% !important;
+    height: 150px;
+    width: 150px;
+}
+.main
+{
+    background-image: url(17973908.jpg)
+    
+}
+.carousel-control-prev-icon
+{
+    background-image: url(prev-transparent.png);
+    width: 4rem;
+    height: 4rem;
+}
+.carousel-control-next-icon
+{
+    background-image: url(Next-transp.png);
+    width: 4rem;
+    height: 4rem;
+}
+.accordion {
+  --bs-accordion-bg: #e4eff1; /* Change default background */
+   --bs-accordion-active-bg: #e8f3f5; /* Change default background */
+  --bs-accordion-active-color: #c2e8f0; /* Change active text color */
+  --bs-accordion-active-bg: #08282e; /* Change active background */
+  --bs-accordion-border-color: #08282e; /* Change border color */
+  --bs-accordion-active-color: #c2e8f0; /* Change active text color */
+  --bs-accordion-btn-focus-border-color:#c2e8f0;
+  --bs-accordion-btn-focus-box-shadow:#c2e8f0;
+  --bs-accordion-btn-bg:#c2e8f0;
+  --bs-accordion-color:#08282e;
+  
+}
+
+#techCarousel .carousel-item {
+    
+  padding: 20px;
+}
+
+#techCarousel h4
+{
+    font-style: italic;
+}
+#techCarousel .carousel-item p.carouselText {
+  text-align: center;        /* center the text */
+  margin: 0 auto;
+   text-wrap: auto;
+    width: 80%;
+}
+body
+{
+    color: #08282e;
+}
+.list-group-item
+{
+   background-color: transparent ;
+    --bs-list-group-border-color:#08282e;
+}
+.list-group-item-img
+{
+    width: 40px;
+    height: 40px;;
+}
+/*.carouselText 
+{
+    display: flex;
+  justify-content: center;
+       
+} */
