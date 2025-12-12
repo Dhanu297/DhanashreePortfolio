@@ -2,12 +2,25 @@
 {
     background-image: url(9129518.jpg);
 }
+h1{
+    font-size: 2.5rem !important;
+}
 
 .NavigationHeader h1{
 color: #08282e;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-align-items: center;
+flex-grow: 4;
+text-align: center;
+  margin: 0;
 
+}
+.navbar-collapse 
+{
+    flex-grow: 0;
+}
+.my-image
+{
+    border-radius: 50% !important;
 }
 .gradient-text {
     /* Set the font properties */
@@ -65,7 +78,8 @@ vertical-align: top;
   --bs-accordion-btn-focus-box-shadow:#c2e8f0;
   --bs-accordion-btn-bg:#c2e8f0;
   --bs-accordion-color:#08282e;
-  
+   
+            --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 #techCarousel .carousel-item {
@@ -95,7 +109,17 @@ body
 .list-group-item-img
 {
     width: 40px;
-    height: 40px;;
+    height: 40px;
+}
+.accordion
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.accordion-button
+{
+    font-weight: bold;
+    font-style: italic;
 }
 /*.carouselText 
 {
