@@ -121,6 +121,11 @@ body
     font-weight: bold;
     font-style: italic;
 }
+.card 
+{
+    --bs-card-color: #08282e;
+    
+}
 /*.carouselText 
 {
     display: flex;
